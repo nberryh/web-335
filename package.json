@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "mongob": "^1.0.0"
+  }
+}
