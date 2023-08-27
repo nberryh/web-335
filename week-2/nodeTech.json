@@ -1,0 +1,21 @@
+{
+    "student": {
+        "studentId": 45612,
+        "firstName": "Bob",
+        "lastName": "Builder"
+    },
+    "enrollment": {
+        "term": "Fall 2023",
+        "gpa": 3.2,
+        "startDate": "20230901",
+        "endDate": "20231215"
+    },
+    "course": {
+        "courseId": "Web",
+        "description": "Introduction to NoSQL",
+        "instructor": "Professor Johnson",
+        "score": 85,
+        "letterGrade": "B" 
+    }
+
+}

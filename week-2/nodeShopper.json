@@ -1,0 +1,22 @@
+{
+    "customer": {
+        "_id": 876590,
+        "firstName": "Harry",
+        "lastName": "Dresden",
+        "dateOfBirth": "19600618",
+        "username": "harryDresden" 
+    },
+    "invoice": {
+        "_id": 657328,
+        "createDate": "20230815",
+        "shipDate": "20230820",
+        "subtotal": 150.79 
+    },
+    "lineItem": {
+        "_id": 12,
+        "productName": "Product A",
+        "price": 25.99,
+        "qty": 3 
+    }
+
+}
