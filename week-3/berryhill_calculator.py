@@ -14,6 +14,13 @@ def add(num1, num2):
 def subtract(num3, num4):
     return num3 - num4
 
+#-----------------------------------------------------
+# Title: berryhill-calculator.py
+# Author: Nolan Berryhill
+# Date: 27 August 2023
+# Description: Exercise 3.3 
+#-----------------------------------------------------
+
 # Define the division function
 def divide(num5, num6):
     if num6 == 0:
