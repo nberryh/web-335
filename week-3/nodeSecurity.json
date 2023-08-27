@@ -1,0 +1,66 @@
+[{
+        "_id": "79",
+        "first_name": "Henry",
+        "last_name":  "Dime",
+        "roles": [
+            {
+                "_id": "role_id_1", 
+                "title": "Admin",
+                "start_date": "03/13/2024",
+                "permissions": [
+                    {
+                        "_id": "a203",
+                        "task": "payroll"
+                    },
+                    {
+                        "_id": "a430",
+                        "task": "accounts"
+                    },
+                    {
+                        "_id": "a213",
+                        "task": "hiring"
+                    }
+                ]
+            },
+            {
+                "_id": "role_id_2", 
+                "title": "User",
+                "start_date": "03/13/2024",
+                "permissions": [
+                    {
+                        "_id": "u503",
+                        "task": "write"
+                    },
+                    {
+                        "_id": "u530",
+                        "task": "access"
+                    },
+                    {
+                        "_id": "u513",
+                        "task": "signup"
+                    }
+                ]
+            },
+            {
+                "_id": "role_id_3", 
+                "title": "Creator",
+                "start_date": "03/13/2024",
+                "permissions": [
+                    {
+                        "_id": "c473",
+                        "task": "webAccess"
+                    },
+                    {
+                        "_id": "c150",
+                        "task": "webAccounts"
+                    },
+                    {
+                        "_id": "c983",
+                        "task": "webSecurity"
+                    }
+                ]
+            }
+        ]
+    }
+
+]
