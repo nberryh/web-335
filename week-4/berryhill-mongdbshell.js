@@ -19,3 +19,4 @@ db.users.find({"firstName": "Richard"})
 
 // Find a user with a employeeId of 1010
 db.users.find({"employeeId": "1010"})
+
