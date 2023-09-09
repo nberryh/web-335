@@ -26,4 +26,4 @@ db.users.updateOne(
 db.users.find({ lastName: "Mozart" })
 
 // List all documents in the user's collection with projections
-db.users.find({}, { firstName: 1, lastName: 1, email: 1, _id: 0 })
+db.users.find({}, { firstName: 1, lastName: 1, email: 1 })

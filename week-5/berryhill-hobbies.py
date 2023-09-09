@@ -20,6 +20,6 @@ days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Satur
 print("\nDays of the Week:")
 for day in days:
     if day == "Saturday" or day == "Sunday":
-        print(f"{day}: You are off and should enjoy your hobbies!")
+        print(f"{day}: is a day off and should enjoy your hobbies!")
     else:
-        print(f"{day}: It is a work day.")
+        print(f"{day}: is a workday.")
