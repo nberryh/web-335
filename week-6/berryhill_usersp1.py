@@ -29,8 +29,8 @@ for user in all_users:
     print(user)
 
 # Display a document where the employeeId is 1011
-print("\nDocument where employId is 1011:")
-user_1011 = user_collection.find_one({"employeeId": 1011})
+print("\nDocument where employeeId is 1011:")
+user_1011 = user_collection.find_one({"employeeId": '1011'})
 print(user_1011)
 
 # Display a document where lastName is Mozart
@@ -40,3 +40,4 @@ print(user_mozart)
 
 # Close the MongoDB connection
 client.close()
+
