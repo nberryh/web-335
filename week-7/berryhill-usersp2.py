@@ -34,13 +34,13 @@ print("New user document created")
 
 # Display the newly created document
 print("\nNewly created user document:")
-created_user = user_collection.find.one({"employeeId": "1027"})
+created_user = user_collection.find_one({"employeeId": "1027"})
 print(created_user)
 
 # Update the email address of the document
 updated_email = "sallydaisy_updated@mail.com"
 user_collection.update_one({"employeeId": "1027"}, {"$set": {"email": updated_email}})
-print(f"\nEmail address updated to: {updated_email}") 
+print("\nEmail address updated to: {updated_email}") 
       
 #Display the updated document
 print("\nUpdated user document:")
