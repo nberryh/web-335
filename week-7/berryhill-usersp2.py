@@ -40,7 +40,7 @@ print(created_user)
 # Update the email address of the document
 updated_email = "sallydaisy_updated@mail.com"
 user_collection.update_one({"employeeId": "1027"}, {"$set": {"email": updated_email}})
-print("\nEmail address updated to: {updated_email}") 
+print(f"\nEmail address updated to: {updated_email}") 
       
 #Display the updated document
 print("\nUpdated user document:")
@@ -48,8 +48,16 @@ updated_user = user_collection.find_one({"employeeId": "1027"})
 print(updated_user)
 
 # Delete the document
-user_collection.delete_one({"employeeId": "1027"})
-print("\nUser document deleted")
+delete_result = user_collection.delete_many({"employeeId": "1027"})
+if delete_result.deleted_count > 0:
+    print("\nUser document deleted")
+else:
+    print("\nUser document was not found or deleted")
+
+
+# Add short delay
+import time
+time.sleep(5)
 
 # Prove the document was deleted
 deleted_user = user_collection.find_one({"employeeId": "1027"})
